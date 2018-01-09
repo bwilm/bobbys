@@ -4,13 +4,19 @@
   "description": "fake restraunt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:ts": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:ts && npm run server",
+    "server": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.11.0",
+    "angular": "^1.6.8",
+    "config": "^1.29.1",
     "express": "^4.16.2",
+    "tsconfig": "^7.0.0",
     "typescript": "^2.6.2"
   }
 }

@@ -1,0 +1,16 @@
+html { 
+    background: url() no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .quest{
+
+    font-family: 'Questrial', sans-serif;
+  }
+
+  .julius{
+    font-family: 'Julius Sans One', sans-serif;
+  }

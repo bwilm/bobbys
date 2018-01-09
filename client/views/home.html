@@ -1,0 +1,168 @@
+<script>
+
+$(document).ready(function(){
+      $('.parallax').parallax();
+
+
+      function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+$('.modal').modal();
+
+
+    });
+
+</script>
+<script>src="https://maps.googleapis.com/maps/api/js?callback=myMap";</script>
+
+
+
+<nav class="transparent">
+    <div class="nav-wrapper transparent">
+      <a href="#" class="brand-logo black-text julius">Bobby's</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
+        <a class="waves-effect waves-light btn modal-trigger transparent black-text"href="#modal1">Menu</a>
+        <li><a class="black-text"href="/about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="parallax-container">
+        <div class="parallax"><img src="images/burger1.jpg"></div>
+      </div>
+      
+      <div class="section white">
+        <div class="row container">
+         <div class="container">
+          <ul>
+              
+                <li>Hamburger   6.99</li>
+                <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                <li>Cheeseburger 8.00</li>
+                <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                <li>Bacon Cheeseburger 10.00</li>
+                <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                
+            </ul>
+          <p class="grey-text text-darken-3 lighten-3 quest">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, nihil laborum. Temporibus ratione amet eveniet porro dolor ullam? Consequatur soluta nihil facilis ratione dicta, pariatur maiores quod sequi animi temporibus?</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/beer1.jpg"></div>
+      </div>
+      <div class="section white">
+            <div class="row container">
+              
+              <ul>
+                    <li>Duff   6.99</li>
+                    <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                    <li>Billy Light 4.00</li>
+                    <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                    <li>Cooridor light 3.00</li>
+                    <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                    
+                </ul>
+              <p class="grey-text text-darken-3 lighten-3 quest">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, nihil laborum. Temporibus ratione amet eveniet porro dolor ullam? Consequatur soluta nihil facilis ratione dicta, pariatur maiores quod sequi animi temporibus?</p>
+            </div>
+          </div>
+          <div class="parallax-container">
+                <div class="parallax"><img src="images/oyster1.jpg"></div>
+              </div>
+              <div class="section white">
+                    <div class="row container">
+                      
+                      <ul>
+                            <li>Oysters   18.99</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            <li>Lobster 40.00</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            <li>Clams  23.00</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            
+                        </ul>
+                      <p class="grey-text text-darken-3 lighten-3 quest">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, nihil laborum. Temporibus ratione amet eveniet porro dolor ullam? Consequatur soluta nihil facilis ratione dicta, pariatur maiores quod sequi animi temporibus?</p>
+                    </div>
+                  </div>
+
+                  
+
+                  <!-- Modal Structure -->
+                  <div id="modal1" class="modal bottom-sheet">
+                    <div class="modal-content">
+                      
+
+
+                      <p>
+                        
+                        <h5 class="julius">burgers</h5>  
+                        <li>Hamburger   6.99</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                        <li>Cheeseburger 8.00</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                        <li>Bacon Cheeseburger 10.00</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi, sed ab minus itaque hic excepturi aspernatur vero laudantium dolore aperiam? Totam, commodi necessitatibus! Nulla voluptatum inventore similique odit sapiente.</p>
+                        <h5 class="julius">beers</h5>
+                        <li>Duff   6.99</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                        <li>Billy Light 4.00</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                        <li>Cooridor light 3.00</li>
+                        <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                        <h5 class="julius">seafood</h5>
+                            <li>Oysters   18.99</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            <li>Lobster 40.00</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            <li>Clams  23.00</li>
+                            <p class="quest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+                            
+                        
+                    
+                    </p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"></a>
+                    </div>
+                  </div>
+         
+
+
+          <footer class="page-footer transparent z-depth-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col l6 s12">
+                      <h5 class="black-text julius">Bobby's</h5>
+          
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                     
+                      <ul>
+                        <li><a class="black-text text-lighten-3" href="#!">Menu</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">About</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Locations</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Jobs</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2018 Copyright
+                  <a class="black-text text-lighten-4 right" href="http://bwilmott.com">bwilmott</a>
+                  </div>
+                </div>
+              </footer>
+                  
+
+
+  
+
+    
